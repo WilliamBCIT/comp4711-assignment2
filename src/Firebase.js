@@ -5,10 +5,10 @@ const settings = {timestampsInSnapshots: true};
 
 const config = {
   apiKey: "AIzaSyAgtu1dfSz6e3_zMyUONpKFDM2fhDdGh-g",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  databaseURL: "YOUR_DATABASE_URL",
+  authDomain: "trainerconnect-8b202.firebaseapp.com",
+  databaseURL: "https://trainerconnect-8b202.firebaseio.com",
   projectId: "trainerconnect-8b202",
-  storageBucket: "YOUR_STORAGE_BUCKET"
+  storageBucket: "gs://trainerconnect-8b202.appspot.com"
 };
 firebase.initializeApp(config);
 
